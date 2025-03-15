@@ -200,7 +200,7 @@ class SuscribeForm extends HTMLElement {
         <span class="info-message">
           ${this.message}
         </span>
-        <span class="status-message" style="display: none;"></span>
+        <span class="status-message" aria-live="assertive" style="display: none;"></span>
       </form>
       ${this.getStyles()}
     `;
