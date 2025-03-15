@@ -1,0 +1,16 @@
+{
+  "name": "join-our-newsletter-challenge",
+  "version": "1.0.0",
+  "description": "![Thumbnail for the Join Our Newsletter coding challenge](./thumbnail.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}

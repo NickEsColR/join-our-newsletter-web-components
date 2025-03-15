@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Join Our Newsletter | devChallenges.io</title>
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        font-family: "Poppins", sans-serif;
+        background-color: rgb(243, 244, 246);
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <subscribe-message>
+        <div slot="message">
+          <p>
+            Keep up with our latest collections, exclusive deals, and special
+            offers!
+          </p>
+          <p>
+            We introduce a new collection every week, so stay tuned to snag the
+            hottest items just for you.
+          </p>
+        </div>
+        <subscribe-form></subscribe-form>
+      </subscribe-message>
+    </main>
+
+    <footer class="author-info">
+      Coded by <a href="https://github.com/NickEsColR">NickEsColR</a> |
+      Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </footer>
+    <script type="module" src="./dist/subscribe-message.js"></script>
+    <script type="module" src="./dist/subscribe-form.js"></script>
+  </body>
+</html>
